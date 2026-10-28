@@ -1,0 +1,24 @@
+{
+  "name": "openrouter",
+  "version": "0.1.0",
+  "description": "Access every OpenRouter model from Claude Code: text, vision, image generation, text-to-speech, speech-to-text, music, video and embeddings.",
+  "author": {
+    "name": "hdg-zero",
+    "url": "https://github.com/hdg-zero"
+  },
+  "homepage": "https://github.com/hdg-zero/claude-plugin-openrouter#readme",
+  "repository": "https://github.com/hdg-zero/claude-plugin-openrouter",
+  "license": "MIT",
+  "icon": ".claude-plugin/icon.png",
+  "keywords": [
+    "openrouter",
+    "mcp",
+    "llm",
+    "image-generation",
+    "text-to-speech",
+    "speech-to-text",
+    "music",
+    "video",
+    "embeddings"
+  ]
+}

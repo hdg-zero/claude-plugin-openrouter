@@ -1,0 +1,33 @@
+{
+  "name": "claude-plugin-openrouter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Claude Code plugin giving Claude access to every OpenRouter model: text, vision, images, speech, transcription, music, video and embeddings.",
+  "license": "MIT",
+  "author": "hdg-zero (https://github.com/hdg-zero)",
+  "homepage": "https://github.com/hdg-zero/claude-plugin-openrouter#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hdg-zero/claude-plugin-openrouter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hdg-zero/claude-plugin-openrouter/issues"
+  },
+  "keywords": [
+    "claude-code",
+    "claude-code-plugin",
+    "mcp",
+    "openrouter",
+    "multimodal"
+  ],
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "start": "node plugins/openrouter/server/index.js",
+    "test": "node --test",
+    "docs": "node scripts/generate-tool-docs.js",
+    "docs:check": "node scripts/generate-tool-docs.js --check",
+    "check": "node --check plugins/openrouter/server/index.js && npm run docs:check && npm test"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "openrouter-marketplace",
+  "description": "OpenRouter models (text, image, voice, music, video) inside Claude Code.",
+  "owner": {
+    "name": "hdg-zero",
+    "url": "https://github.com/hdg-zero"
+  },
+  "plugins": [
+    {
+      "name": "openrouter",
+      "source": "./plugins/openrouter",
+      "description": "Access every OpenRouter model from Claude Code: text, vision, image generation, text-to-speech, speech-to-text, music, video and embeddings.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "keywords": [
+        "openrouter",
+        "mcp",
+        "multimodal"
+      ]
+    }
+  ]
+}

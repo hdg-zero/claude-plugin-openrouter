@@ -1,0 +1,19 @@
+# Generated media from local runs
+openrouter-output/
+
+# Dependencies and logs
+node_modules/
+npm-debug.log*
+coverage/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

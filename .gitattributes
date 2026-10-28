@@ -1,0 +1,3 @@
+* text=auto eol=lf
+*.png binary
+docs/tools.md linguist-generated=true
